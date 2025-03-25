@@ -1,6 +1,7 @@
 # Open Deep Research on Windows Powershell (without running Docker)
 
 This project is based on dzhng's deep-search repository (https://github.com/dzhng/deep-research) project but in a much simpler way. 
+And this was achievable purely with prompt engineering, command lining, and slight code modification.
 
 # Implementation Steps
 1. Create a project folder in your system
