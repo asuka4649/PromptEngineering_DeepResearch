@@ -3,7 +3,27 @@
 This project is based on dzhng's deep-search repository (https://github.com/dzhng/deep-research) project but in a much simpler way. 
 And this was achievable purely with prompt engineering, command lining, and slight code modification.
 
+# Tech Stack Breakdown
+
+1. Programming Environment
+Language: TypeScript / JavaScript (Node.js runtime)
+Runtime: Node.js (required for executing scripts and managing dependencies)
+Package Manager: npm (Node Package Manager)
+
+2. External APIs & Services
+API/Service
+🔍 Firecrawl API	Web search and content extraction (SERP results + markdown format)
+🧠 OpenAI API	LLM-powered query generation, research direction, summarization, reporting
+
+3. LLM Functions
+Uses LLMs (OpenAI) to:
+Generate SERP queries from a user prompt
+Extract structured learnings from search results
+Create follow-up questions and next-step queries
+Compile markdown reports and concise answers
+
 # Implementation Steps
+
 1. Create a project folder in your system
 2. Open your Powershell and make sure node.js and git are installed
 3. Connect Powershell to the project file (see "code" in deep-search page) and download the project package
